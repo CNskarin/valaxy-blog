@@ -51,10 +51,6 @@ const siteConfig = useSiteConfig()
         </span>
       </div>
 
-      <ClientOnly>
-        <VercountPageViews :frontmatter="frontmatter" />
-      </ClientOnly>
-
       <YunWalineMeta />
 
       <ValaxyOpenInEditor />
