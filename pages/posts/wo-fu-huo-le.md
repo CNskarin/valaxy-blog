@@ -1,6 +1,6 @@
 ---
 title: 我复活了！
-date: 2026-08-14
+date: 2026-08-14T20:00:00+08:00
 tags:
   - 随笔
 categories:
