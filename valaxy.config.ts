@@ -23,7 +23,7 @@ export default defineValaxyConfig<UserThemeConfig>({
   themeConfig: {
     banner: {
       enable: true,
-      title: '嘉林的博客',
+      title: 'Skarin Blog',
     },
 
     pages: [
