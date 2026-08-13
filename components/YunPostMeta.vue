@@ -52,7 +52,7 @@ const siteConfig = useSiteConfig()
       </div>
 
       <ClientOnly>
-        <VercountPageViews />
+        <VercountPageViews :frontmatter="frontmatter" />
       </ClientOnly>
 
       <YunWalineMeta />
