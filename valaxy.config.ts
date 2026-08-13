@@ -7,7 +7,7 @@ const safelist = [
   'i-ri-archive-line',
   'i-ri-folder-line',
   'i-ri-price-tag-line',
-  'i-ri-link-line',
+  'i-ri-link',
   'i-ri-user-line',
 ]
 
@@ -106,7 +106,7 @@ export default defineValaxyConfig<UserThemeConfig>({
       {
         text: '友链',
         link: '/links/',
-        icon: 'i-ri-link-line',
+        icon: 'i-ri-link',
       },
       {
         text: '关于',
