@@ -1,6 +1,7 @@
 import type { UserThemeConfig } from 'valaxy-theme-yun'
 import { defineValaxyConfig } from 'valaxy'
 import { addonGiscus } from 'valaxy-addon-giscus'
+import { addonVercount } from 'valaxy-addon-vercount'
 
 // 添加需要使用的图标
 const safelist = [
@@ -34,6 +35,7 @@ export default defineValaxyConfig<UserThemeConfig>({
       categoryId: 'DIC_kwDOT3Y1x84DDS7B',
       lang: 'zh-CN',
     }),
+    addonVercount({ api: 'cn' }),
   ],
 
   /**

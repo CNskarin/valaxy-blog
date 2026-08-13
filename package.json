@@ -13,8 +13,9 @@
   },
   "dependencies": {
     "valaxy": "1.0.0-rc.5",
-    "valaxy-theme-yun": "1.0.0-rc.5",
-    "valaxy-addon-giscus": "github:CNskarin/valaxy-addon-giscus"
+    "valaxy-addon-giscus": "github:CNskarin/valaxy-addon-giscus",
+    "valaxy-addon-vercount": "^0.0.7",
+    "valaxy-theme-yun": "1.0.0-rc.5"
   },
   "devDependencies": {
     "typescript": "^5.9.3"
