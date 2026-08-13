@@ -11,33 +11,13 @@ const safelist = [
  */
 export default defineValaxyConfig<UserThemeConfig>({
   // 站点配置见 site.config.ts
+  // 主题配置见 theme.config.ts
 
   theme: 'yun',
 
-  // GitHub Pages 子路径部署（测试期）
-  // 切到自定义域名后改为 '/'
+  // 自定义域名部署，根路径
   vite: {
-    base: '/valaxy-blog/',
-  },
-
-  themeConfig: {
-    banner: {
-      enable: true,
-      title: 'Skarin Blog',
-    },
-
-    pages: [
-      {
-        name: '关于',
-        url: '/about/',
-        icon: 'i-ri-user-line',
-        color: 'dodgerblue',
-      },
-    ],
-
-    footer: {
-      since: 2026,
-    },
+    base: '/',
   },
 
   unocss: { safelist },

@@ -1,7 +1,7 @@
 import { defineSiteConfig } from 'valaxy'
 
 export default defineSiteConfig({
-  url: 'https://cnskarin.github.io/valaxy-blog/',
+  url: 'https://blog.yoii.top/',
   lang: 'zh-CN',
   title: 'Skarin Blog',
   subtitle: '茫茫人海，相遇即是缘分',
