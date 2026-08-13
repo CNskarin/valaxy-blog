@@ -3,13 +3,13 @@ import { defineSiteConfig } from 'valaxy'
 export default defineSiteConfig({
   url: 'https://cnskarin.github.io/valaxy-blog/',
   lang: 'zh-CN',
-  title: '嘉林的博客',
-  subtitle: 'Vue 3 驱动的下一代静态博客',
+  title: 'Skarin Blog',
+  subtitle: '茫茫人海，相遇即是缘分',
   author: {
-    name: '孙嘉林',
+    name: 'Skarin',
     avatar: '/favicon.svg',
   },
-  description: '基于 Valaxy 框架的静态博客，探索 Vue 3 + Vite 的新一代写作体验。',
+  description: '迷えば、敗れる。',
   timezone: 'Asia/Shanghai',
   social: [
     {
