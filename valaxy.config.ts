@@ -44,7 +44,7 @@ export default defineValaxyConfig<UserThemeConfig>({
    */
   themeConfig: {
     /** 布局类型：'nimbo'（雨云，默认）| 'strato'（层云，经典侧边栏） */
-    type: 'nimbo',
+    type: 'strato',
 
     /** 文章页右侧目录标题 */
     outlineTitle: '本页目录',
@@ -74,7 +74,7 @@ export default defineValaxyConfig<UserThemeConfig>({
 
     /** 说点什么 / 一言 */
     say: {
-      enable: false,
+      enable: true,
       api: 'https://el-bot-api.elpsy.cn/api/words/young',
       hitokoto: {
         enable: false,
@@ -139,6 +139,18 @@ export default defineValaxyConfig<UserThemeConfig>({
         name: '关于',
         url: '/about/',
         icon: 'i-ri-user-line',
+        color: 'dodgerblue',
+      },
+      {
+        text: '留言板',
+        link: '/messageboard/',
+        icon: 'i-ri-chat-smile-line',
+        color: 'dodgerblue',
+      },
+      {
+        text: '友链',
+        link: '/links/',
+        icon: 'i-ri-link',
         color: 'dodgerblue',
       },
     ],
