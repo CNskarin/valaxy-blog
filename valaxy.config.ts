@@ -44,7 +44,7 @@ export default defineValaxyConfig<UserThemeConfig>({
    */
   themeConfig: {
     /** 布局类型：'nimbo'（雨云，默认）| 'strato'（层云，经典侧边栏） */
-    type: 'strato',
+    type: 'nimbo',
 
     /** 文章页右侧目录标题 */
     outlineTitle: '本页目录',
