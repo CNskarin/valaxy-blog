@@ -142,14 +142,14 @@ export default defineValaxyConfig<UserThemeConfig>({
         color: 'dodgerblue',
       },
       {
-        text: '留言板',
-        link: '/messageboard/',
+        name: '留言板',
+        url: '/messageboard/',
         icon: 'i-ri-chat-smile-line',
         color: 'dodgerblue',
       },
       {
-        text: '友链',
-        link: '/links/',
+        name: '友链',
+        url: '/links/',
         icon: 'i-ri-link',
         color: 'dodgerblue',
       },
