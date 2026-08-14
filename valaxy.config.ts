@@ -122,6 +122,11 @@ export default defineValaxyConfig<UserThemeConfig>({
         icon: 'i-ri-link',
       },
       {
+        text: '留言板',
+        link: '/messageboard/',
+        icon: 'i-ri-chat-smile-line',
+      },
+      {
         text: '关于',
         link: '/about/',
         icon: 'i-ri-user-line',
