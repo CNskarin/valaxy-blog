@@ -28,6 +28,8 @@ date: 2018-10-23 01:02:00
     }
 之后重启服务器
 
+<!-- more -->
+
 结果
 
 无效...
@@ -44,3 +46,4 @@ date: 2018-10-23 01:02:00
 
 
   [1]: https://www.phpnote.net/index.php/Home/Article/index/id/54#
+

@@ -97,3 +97,7 @@ echo "0 结果";
 首先，我们设置了 SQL 语句从指定数据表中读取 id, firstname 和 lastname 三个字段。之后我们使用该 SQL 语句从数据库中取出结果集并赋给复制给变量 $result。
 函数 num\_rows() 判断返回的数据。
 如果返回的是多条数据，函数 fetch\_assoc() 将结合集放入到关联数组并循环输出。 while() 循环出结果集，并输出 id, firstname 和 lastname 三个字段值。[/scode]
+
+<!-- more -->
+
+

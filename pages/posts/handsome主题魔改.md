@@ -136,8 +136,11 @@ PE端背景是homepage\_bg2.jpg
 PC端背景是homepage\_bg1.jpg
 !!!
 
+<!-- more -->
+
 5.0以上的请将背景代码放到自定义body尾部的地方。
 
 !!!
 突然想起原文地址，可以去看看[链接地址][1]
 [1]: https://www.hcyacg.com/html/mogai.html
+
